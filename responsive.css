@@ -1,0 +1,200 @@
+@media screen and (min-width: 768px) {
+    /* HEADER */
+
+    .description__desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .description__nav {
+        width: 700px;
+        height: 500px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100%;
+        height: 150px;
+        background-size: auto;
+        opacity: 0;
+    }
+
+    .phone {
+        width: 400px;
+        height: 500px;
+        box-shadow: inset 60px 0px 30px 0 var(--azul);
+    }
+
+    /* MAIN */
+
+
+    .app__feature {
+        width: 100%;
+    }
+
+
+    /* FOOTER */
+    .container__form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1280px) {
+    /* HEADER */
+    .phone {
+        width: 600px;
+    }
+
+    /* MAIN */
+    .app__feature {
+        width: 400px;
+        height: 500px;
+    }
+
+    .features__app {
+        display: flex;
+        /* background-color: red; */
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem auto;
+    }
+
+    .feature__description {
+        /* background-color: yellow; */
+        width: 500px;
+        text-align: left;
+}
+
+.app__reminder {
+    width: 400px;
+    height: 500px;
+}
+
+.reminder__description {
+    text-align: left;
+    width: 500px;
+} 
+
+.app__cloud {
+    width: 400px;
+    height: 500px;
+}
+
+.cloud__description {
+    text-align: left;
+    width: 500px;
+}
+
+.app__goals {
+    width: 400px;
+    height: 500px;
+}
+
+.goals__description {
+    text-align: left;
+    width: 500px;
+}
+
+.app__offline {
+    width: 400px;
+    height: 500px;
+}
+
+.offline__description {
+    text-align: left;
+    width: 500px;
+}
+
+.container__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__download {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.description-card-front {
+    display: none;
+}
+
+.content__download {
+    width: 500px;
+}
+
+.description__download {
+    width: 500px;
+    height: 100%;
+}
+
+.text__download {
+    text-align: left;
+}
+
+.buttons__download {
+    flex-direction: row;
+}
+
+.btn__download {
+    flex-shrink: 0;
+}
+
+/* FOOTER */
+.flex__inputs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-1, .input-2 {
+    width: 100%;
+}
+
+.label__footer {
+    top: 34px;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+    /* HEADER */
+    .container__phone {
+        width: 100%;
+        max-width: 600px;
+        background-color: red;
+    }
+
+    .description__nav {
+        width: 100%;
+    }
+
+    /* MAIN */
+    .features__app {
+        justify-content: space-evenly;
+    }
+
+
+
+    .container__cards {
+        justify-content: space-evenly;
+    }
+
+    /* FOOTER */
+    .container__form {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
